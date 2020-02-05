@@ -20,7 +20,7 @@ const wsdlURL = 'http://www.dneonline.com/calculator.asmx?wsdl'; // WSDL from ht
 describe( "Test SOAP REQUEST TO ADD", function() {
     it( 'Soap test Add', async () => {
         try {
-            reporter.feature('Feature')
+            //reporter.feature('Feature')
             const { response } = await soapRequest( {
                 url: wsdlURL,
                 headers: headerss,

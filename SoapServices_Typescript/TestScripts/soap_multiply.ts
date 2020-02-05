@@ -10,7 +10,7 @@ const log = factory.getLogger( "protractor" );
 const headerss = {
     //'user-agent': ' Apache-HttpClient/4.1.l (java l.5)',
     'Content-Type': 'text/xml;charset=UTF-8',//'application/soap+xml;charset=UTF-8;',
-    'soapAction': 'http://tempuri.org/Add',
+    'soapAction': 'http://tempuri.org/Multiply',
 
 };
 
@@ -20,7 +20,7 @@ const wsdlURL = 'http://www.dneonline.com/calculator.asmx?wsdl'; // WSDL from ht
 describe( "Test SOAP REQUEST TO MULTIPLY", function() {
     it( 'Soap test Multiply', async () => {
         try {
-            reporter.feature('Feature')
+           // reporter.feature('Feature')
             const { response } = await soapRequest( {
                 url: wsdlURL,
                 headers: headerss,

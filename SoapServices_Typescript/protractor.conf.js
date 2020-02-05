@@ -18,8 +18,8 @@ exports.config = {
     reporterOptions: {
         allure: {
             outputDir: 'allure-results',
-            disableWebdriverStepsReporting: false,
-            disableWebdriverScreenshotsReporting: false,
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
             useCucumberStepReporter: false
         }
     },
@@ -38,7 +38,7 @@ exports.config = {
         chromeOptions: {
             w3c: false,
             useAutomationExtension: false,
-            args: ["--no-sandbox --start-maximized --test-type --incognito"]
+            args: ["--no-sandbox --start-maximized --headless"] //--test-type --incognito
         }
     },
     onPrepare: function () {
