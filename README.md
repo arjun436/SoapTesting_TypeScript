@@ -281,11 +281,11 @@ Report successfully generated to allure-report
 ```
 Allure reports:
 
-<img src= "https://github.com/arjun436/SoapTesting_TypeScript/blob/master/SoapServices_Typescript/image/Capture1.png"/>
+<img src= "https://github.com/arjun436/SoapTesting_TypeScript/blob/master/SoapServices_Typescript/image/Capture1.PNG"/>
 </p>
-<img src= "https://github.com/arjun436/SoapTesting_TypeScript/blob/master/SoapServices_Typescript/image/Capture2.png"/>
+<img src= "https://github.com/arjun436/SoapTesting_TypeScript/blob/master/SoapServices_Typescript/image/Capture2.PNG"/>
 </p>
-<img src= "https://github.com/arjun436/SoapTesting_TypeScript/blob/master/SoapServices_Typescript/image/Capture3.png"/>
+<img src= "https://github.com/arjun436/SoapTesting_TypeScript/blob/master/SoapServices_Typescript/image/Capture3.PNG"/>
 </p>
 
 
