@@ -30,7 +30,7 @@
 		"should": "^13.2.3",
 		"soap": "^0.30.0",
 		"ts-node": "7.0.1",
-		"tsconfig-paths": "^3.9.0",
+		"tsconfig-paths": "^3.10.1",
 		"typescript": "~3.2.2",
 		"typescript-logging": "^0.6.4",
 		"wdio-allure-reporter": "^0.8.3"
